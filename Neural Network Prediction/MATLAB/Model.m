@@ -30,9 +30,9 @@ net.output.processFcns = {'removeconstantrows','mapminmax'};
 % For a list of all data division functions type: help nndivision
 net.divideFcn = 'dividerand';  % Divide data randomly
 net.divideMode = 'sample';  % Divide up every sample
-net.divideParam.trainRatio = 70/100;
+net.divideParam.trainRatio = 60/100;
 net.divideParam.valRatio = 15/100;
-net.divideParam.testRatio = 15/100;
+net.divideParam.testRatio = 25/100;
 
 % Choose a Performance Function
 % For a list of all performance functions type: help nnperformance
@@ -73,13 +73,13 @@ view(net)
 % Deployment
 % Change the (false) values to (true) to enable the following code blocks.
 % See the help for each generation function for more information.
-if (false)
+if (true)
     % Generate MATLAB function for neural network for application
     % deployment in MATLAB scripts or with MATLAB Compiler and Builder
     % tools, or simply to examine the calculations your trained neural
     % network performs.
-    genFunction(net,'myNeuralNetworkFunction');
-    y = myNeuralNetworkFunction(x);
+    genFunction(net,'myNeuralNetworkFunction2');
+    y = myNeuralNetworkFunction2(x);
 end
 if (false)
     % Generate a matrix-only MATLAB function for neural network code
