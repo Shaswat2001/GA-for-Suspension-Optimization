@@ -28,6 +28,9 @@ To ease the implementation and integration of genetic algorithm and machine lear
     └── Genetic_Algorithm.m              # Optimises the suspension geometry
     
 ```
+## Double Wishbone Model
+
+## Optimization Results
 
 ## Contact
 
