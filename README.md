@@ -30,7 +30,26 @@ To ease the implementation and integration of genetic algorithm and machine lear
 ```
 ## Double Wishbone Model
 
+A vehicle’s suspension is a system that helps maintain a smoother ride by negating surface irregularities. This system connects the vehicle with its wheels. When designing a suspension system, the main objectives are to:
+* Maintain maximum surface contact
+* Improve vehicle handling
+* Maximize driver comfort
+
+Double wishbone is an independent system in which two wishbone shaped control arms are connected between the knuckle and the vehicles chassis. It is the preferred front suspension geometry for off road vehicles as they are easily adjustable, simple to manufacture and cost effective. We are focusing on the double A-Arm design in this research and have proposed a geometry design optimization algorithm. The geometry of the suspension is damper to lower wishbone as shown in figure. Suspension geometries are analyzed in the lotus suspension software.
+
+<p align="center">
+<img src="./assets/suspension.svg" width="300" alt="inn_traj">
+</p>
+
 ## Optimization Results
+
+The complete project was implemented in <a href="https://in.mathworks.com/products/matlab.html">MATLAB</a>, though codes in <a href="https://www.python.org">Python</a> are also available in the <a href="https://github.com/Shaswat2001/GA-for-Suspension-Optimization/tree/master/Python">repository</a>. For the given project we used **roulette selection**, **Weighted average arithmetic crossover** and **creep mutation** was used for the optimization purpose. The geometry given by the algorithm, was vaidated using LOTUS suspension software, the result of which are shown in the figure. 
+
+<p align="center">
+<img src="./assets/validation.svg" width="350" alt="inn_traj">
+</p>
+
+The desired results were near zero values for both camber and toe on bump travel between 200mm and -60mm. The castor and kingpin angles lie in the desired ranges
 
 ## Contact
 
