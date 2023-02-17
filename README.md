@@ -51,6 +51,23 @@ The complete project was implemented in <a href="https://in.mathworks.com/produc
 
 The desired results were near zero values for both camber and toe on bump travel between 200mm and -60mm. The castor and kingpin angles lie in the desired ranges
 
+## Citation
+
+I would appreciate if you cite my work, in case you are using it for your work. Thank you :-)
+
+```python
+
+@inproceedings{garg2022optimization,
+  title={Optimization of a Double Wishbone Suspension Geometry for Off-road Vehicles using Genetic Algorithm and Machine Learning},
+  author={Garg, Shaswat and Dudeja, Satwik and Gupta, Satwik and Rastogi, Vikas},
+  booktitle={2022 13th International Conference on Mechanical and Aerospace Engineering (ICMAE)},
+  pages={472--477},
+  year={2022},
+  organization={IEEE}
+}
+
+```
+
 ## Contact
 
 If you have any questions, please let me know:
